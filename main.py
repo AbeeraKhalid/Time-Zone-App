@@ -1,5 +1,5 @@
 #TIME ZONE APPLICATION...
-import streamlit as st
+import streamlit as st # type: ignore
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -7,7 +7,7 @@ TIME_ZONES = [
     "UTC",
     "Asia/Karachi", 
     "Asia/Kolkata",
-    "America/New_York"
+    "America/New_York",
     "Europe/London",
     "Asia/Tokyo",
     "Australia/Sydney",
